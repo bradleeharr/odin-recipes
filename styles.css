@@ -1,0 +1,12 @@
+* {
+    color: white;
+    background-color: rgb(29, 34, 34);
+}
+.top, img {
+    color: blue;
+    background-color: rgb(46, 20, 20);
+    height: 40;
+    width: auto;
+    text-align: center;
+}
+
