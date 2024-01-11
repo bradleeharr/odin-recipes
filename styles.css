@@ -19,6 +19,42 @@ header {
     padding: 20px;
 }
 
+/* Style the recipe image */
+.recipe-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the recipe details section */
+.recipe-details {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the ingredients list */
+.ingredients-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.ingredients-list li {
+    margin-bottom: 10px;
+}
+
+/* Style the steps list */
+.steps-list {
+    list-style: decimal;
+    padding-left: 20px;
+}
+
 /* Style the navigation menu */
 nav ul {
     list-style: none;
