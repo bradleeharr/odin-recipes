@@ -1,12 +1,57 @@
-* {
-    color: white;
-    background-color: rgb(29, 34, 34);
-}
-.top, img {
-    color: blue;
-    background-color: rgb(46, 20, 20);
-    height: 40;
-    width: auto;
-    text-align: center;
+/* Reset some default styles */
+html, body, h1, ul, li, a {
+    margin: 0;
+    padding: 0;
 }
 
+/* Set a background color and font family */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Style the header */
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    margin-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #3498db;
+    margin: 0 10px;
+}
